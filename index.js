@@ -75,8 +75,9 @@ const Qend = (Aend) => {
         rl.question('project name (Nitron Web) : ', QprojectName);
     }else {
     	console.clear();
+        console.log(`\n=============================\nProject Name - ${projectName}\nProject Description - ${description}\nJS File name - ${jsFile}\nDOM Render ID - ${tag}\n=============================\n`);
     	console.log(`Enter only 'y' or 'n'`);
-        rl.question('project name (Nitron Web) : ', Qend);
+        rl.question('Is the information you entered correct? (y/n) ', Qend);
     }
 };
 
