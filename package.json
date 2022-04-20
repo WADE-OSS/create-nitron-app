@@ -1,20 +1,11 @@
 {
   "name": "create-nitron-app",
   "version": "1.0.3",
-  "description": "Creating a new Niteron-based web, app ",
+  "description": "Creating a new Nitron web, app",
   "main": "index.js",
-  "bin": "index.js",
-  "scripts": {
-    "start": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/WADE-OSS/nitron/blob/main/dist/nitron.js"
-  },
-  "keywords": [
-    "nitron",
-    "js"
-  ],
-  "author": "WADE OSS",
-  "license": "MIT"
+  "author": "WADE-OSS",
+  "license": "ISC",
+  "bin": {
+    "cli": "./index.js"
+  }
 }
